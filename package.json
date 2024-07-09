@@ -1,0 +1,14 @@
+{
+  "name": "ejercicios_testing",
+  "version": "1.0.0",
+  "description": "Ejercicos de testing automatizado con Cypress. Getronics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Tomir",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.0"
+  }
+}
