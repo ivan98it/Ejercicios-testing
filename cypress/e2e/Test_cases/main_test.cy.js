@@ -62,7 +62,7 @@ describe ('Casos de prueba en la pagina https://tiendaonline.movistar.com.ar',fu
         cy.get('#bodyTable').contains('60 cuotas').should('not.exist');
     })
 
-    it ('Validar 6 cuotas sin interes-Motorola usado de menor precio-Banco BBVA Frances-MasterCard',function(){
+    it ('Validar envío gratis-Motorola con cámara de 50MP + 2MP -orden por el mas económico de la lista y seleccionarlo- segundo color del producto.',function(){
         
         //Filtarmos por Motorola y camara de 50 MP + 2MP y verificamos que se apliquen los filtros//
         homePage.filtrar('Motorola');
